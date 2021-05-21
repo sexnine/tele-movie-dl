@@ -1,0 +1,14 @@
+# Where you want your movies to be downloaded, have this be the folder that is linked to your plex movie library
+MOVIE_DOWLOAD_DIRECTORY: /path/to/download/dir
+
+TELEGRAM_BOT_TOKEN: 000000000:jzCtFG9b5DN_s37DmmgYyLKsdg8tdu52enb8
+# Telegram IDs allowed to access your telegram bot
+ALLOWED_TELEGRAM_IDS:
+  - 000000000
+  - 000000001
+
+# Info to connect to transmission RPC
+TRANSMISSION_USERNAME: transmission_username
+TRANSMISSION_PASSWORD: transmission_password
+TRANSMISSION_PORT: 9091
+TRANSMISSION_HOST: 127.0.0.1
