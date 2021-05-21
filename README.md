@@ -13,7 +13,7 @@ Using docker is probably the easiest way.  [Make sure you have docker installed]
 
 Setup transmission-daemon, you can use [this link](https://linuxconfig.org/how-to-set-up-transmission-daemon-on-a-raspberry-pi-and-control-it-via-web-interface) to help.
 
-Clone this repository `git clone https://github.com/sexnine/tele-movie-dl`
+Clone this repository `git clone https://github.com/sexnine/tele-movie-dl.git`
 
 Navigate into the repository `cd tele-movie-dl/`
 
