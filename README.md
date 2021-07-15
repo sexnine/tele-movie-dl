@@ -21,7 +21,7 @@ Make a copy of `config.example.yml` as `config.yml` using `cp config.example.yml
 
 Edit the config file with your Telegram bot token, transmission-daemon credentials, and the IDs of the users you want to be able to use your bot.  (You can get your Telegram ID by running the container and running the `/movie` command, it will log the ID that tried to use that command.  You can then put that ID in your config and rebuild the container.)
 
-Build the docker container `docker build -t tele-movie-dl`
+Build the docker container `docker build . -t tele-movie-dl`
 
 Run the docker container `docker run -d tele-movie-dl`
 
